@@ -1,24 +1,24 @@
 @media (max-width: 1535px) {
   header {
     padding: 15px 3%;
-    transition: .2s;
+    transition: 0.2s;
   }
 
   .icons {
     padding: 0 3%;
-    transition: .2s;
+    transition: 0.2s;
   }
 
   .scroll-dow {
     right: 3%;
-    transition: .2s;
+    transition: 0.2s;
   }
 }
 
 @media (max-width: 1460px) {
   section {
     padding: 0 12%;
-    transition: .2s;
+    transition: 0.2s;
   }
 }
 
@@ -41,12 +41,12 @@
 @media (max-width: 1195px) {
   header {
     position: fixed;
-    background-color:#0e0a54;
+    background-color: #0e0a54;
   }
 
   section {
     padding: 0 3%;
-    transition: .2s;
+    transition: 0.2s;
   }
 
   .hero-text {
@@ -94,7 +94,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 50px 20px;
-    transition: all .55s ease;
+    transition: all 0.55s ease;
   }
 
   .navlist a {
@@ -147,7 +147,7 @@
 
   .hero-img img {
     height: auto;
-    width: 300px;
+    width: 200px;
     margin-right: 100px;
   }
 
