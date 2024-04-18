@@ -69,7 +69,13 @@
   }
 
   .icons {
-    display: none;
+    margin-top: 100px;
+  }
+
+  .icons i {
+    font-size: 19px;
+    margin: 25px 0;
+    background: none;
   }
 
   .scroll-dow {
@@ -161,6 +167,10 @@
 }
 
 @media (max-width: 360px) {
+  .hero-text p {
+    width: 270px;
+  }
+
   .hero-img {
     margin-top: 5px;
   }

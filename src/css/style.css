@@ -199,32 +199,3 @@ section {
 .scroll-dow {
   animation-duration: 2.1s;
 }
-
-.icons2 {
-  display: none;
-  position: absolute;
-  background: linear-gradient(
-    245.59deg,
-    #1f1899 0%,
-    #030127 28.53%,
-    #190c51 75.52%
-  );
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.icons2 i {
-  display: none;
-  margin: 15px 0;
-  font-size: 20px;
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
-
-.icons2 i:hover {
-  color: #e20404;
-  transform: translateY(-5px);
-}
