@@ -167,11 +167,20 @@
 }
 
 @media (max-width: 360px) {
+  .hero {
+    width: 100vh;
+    height: 100vw;
+  }
+
   .hero-text p {
     width: 270px;
   }
 
   .hero-img {
     margin-top: 5px;
+  }
+
+  .hero-img img {
+    margin-right: 50%;
   }
 }
