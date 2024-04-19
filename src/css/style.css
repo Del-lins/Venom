@@ -39,6 +39,14 @@ header {
   transition: all 0.55s ease;
 }
 
+.hidden {
+  display: none;
+}
+
+.hidden i {
+  font-size: 22px;
+}
+
 .navlist a:hover {
   border-bottom: 2px solid #ffffff;
 }
