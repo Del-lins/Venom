@@ -140,7 +140,12 @@
 @media (max-width: 400px) {
   body {
     overflow-x: hidden;
+    overflow-y: hidden;
     position: relative;
+  }
+
+  header {
+    width: 395px;
   }
 
   .hero-text {
