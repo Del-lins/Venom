@@ -166,15 +166,19 @@
 }
 
 @media (max-width: 360px) {
+  .hero-text {
+    width: 350px;
+  }
+
+  .hero-text h1 {
+    width: 330px;
+  }
+
   .hero-text p {
     width: 280px;
   }
 
-  .hero-img {
-    margin-top: 5px;
-  }
-
   .hero-img img {
-    margin-right: 50%;
+    margin: 0 auto;
   }
 }
