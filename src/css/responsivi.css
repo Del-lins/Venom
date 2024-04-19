@@ -69,7 +69,7 @@
   }
 
   .icons {
-    margin-top: 100px;
+    display: none;
   }
 
   .icons i {
@@ -121,8 +121,7 @@
   }
 
   .hero-img img {
-    width: auto;
-    height: 400px;
+    width: 300px;
   }
 }
 
@@ -140,12 +139,7 @@
 @media (max-width: 400px) {
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
     position: relative;
-  }
-
-  header {
-    width: 395px;
   }
 
   .hero-text {
@@ -169,20 +163,11 @@
   .hero-text a.bil {
     padding: 12px 10px;
   }
-
-  .icons2 i {
-    display: block;
-  }
 }
 
 @media (max-width: 360px) {
-  .hero {
-    width: 100vh;
-    height: 100vw;
-  }
-
   .hero-text p {
-    width: 270px;
+    width: 280px;
   }
 
   .hero-img {
